@@ -1,7 +1,8 @@
 <!DOCTYPE html> 
 <html>
  <head>
-    <title>Undeviating</title>
+    <title>Bologna é una regola</title>
+    <link rel="shortcut icon" href="imgs/tortellino.jpeg"/> <!---favicon-->
     <meta charset="utf-8">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,24 +16,147 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <link rel="stylesheet" type="text/css" href="CSS/style.css">
  </head> 
- <body>
-    <header>
-        <i class="fa-sharp fa-solid fa-gear"></i>
-        <h1>Perchè Bologna è una regola</h1>
-        <nav>
-            <ul>
-                <li><a class="whitelink nounderline" href="index.html">homepage</a></li>
-                <li><a class="active nounderline" href="clients.html">our clients</a></li>
-                <li><a class="whitelink nounderline" href="about.html">about us</a></li>
-            </ul>
-        </nav>
+ <body class="container-fluid">
+    <header id="header">
+        <div class="container">
+            <div class="row">
+              <div class="col" id="headersin">
+                <img src="IMGS/Logo.jpg">
+              </div>
+              <div class="col" id="headerdes">
+                <nav>
+                    <ul id="basta">
+                        <li><a class="whitelink nounderline" href="index.html">Home</a></li>
+                        <li><a class="active nounderline" href="clients.html">Cosa vedere</a></li>
+                        <li><a class="whitelink nounderline" href="about.html">Dove mangiare</a></li>
+                        <li><a class="whitelink nounderline" href="documentazione.html">Documentazione</a></li>
+                    </ul>
+                </nav>
+                <section class="testo" id="benvenuti">
+                    <h1>BENVENUTI</h1>
+                    <p> Lasciati guidare per le vie di Bologna con questo tour musicale interattivo per vivere al meglio la tua esperienza in questa città.</p>    
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4rWK6vudoc74vFn8xrvu26?utm_source=generator" width="50%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>    
+                </section>
+                <section class="testo" id="contattiheader">
+                    <p>infobolognaunaregola@gmail.com</p>
+                    <!-- AddToAny BEGIN -->
+                      <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+                      <a class="a2a_button_whatsapp"></a>
+                      </div>
+                      <script async src="https://static.addtoany.com/menu/page.js"></script>
+                     <!-- AddToAny END -->
+                </section>
+              </div>
+            </div>
     </header>
-    <section>
-        <img id="homeimg" src="imgs/gatto.jpeg"> 
+    <section id="sectionimg"> <!--section immagine portici-->
+        <img id="homeimg" src="imgs/case.jpeg"> 
+    </section> 
+    
+    <section id="sectionprimatappa" class="bordo"> <!--section prima tappa-->
+            <div class="container">
+                <div class="row">
+                  <div class="col-8">
+                    <h2 class="titolo">DARK BOLOGNA</h2>
+                    <p class="testo"> Per inaugurare il tour non possiamo scegliere nessun altro se non Lucio Dalla che a Bologna è nato e vissuto. <br>
+                        In particolare la canzone scelta è "Dark Bologna" che tra i suoi versi racconta a 360° la città.
+                        Parla di San Luca che si vede dall’autostrada e fa sentire tutti i Bolognesi a casa, cita il sistema di sorveglianza <br>
+                        per la zona ZTL e ricorda i portici che permettono di girare per la città anche con il temporale. 
+                      </p>
+                  </div>
+                  <div class="col-4">
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3291szEvSYtXnE6cGJU4Od?utm_source=generator&theme=0" width="80%" height="250" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" class="musica" loading="lazy"></iframe>
+                </div>
     </section>
-    <section>
-        <h2>Welcome</h2>
-        <p> Ciao sono letizia designed by <a href="http://example.org">templated</a>. bim bum </p>
-    </section>
+
+<section id="sectionprimatappa" class="bordo"> <!--section seconda tappa-->
+    <div class="container">
+        <div class="row">
+          <div class="col-8">
+            <h2 class="titolo">PIAZZA GRANDE</h2>
+            <p class="testo"> La prima tappa è Piazza Maggiore che dal cantautore Lucio Dalla è stata soprannominata Piazza Grande. <br>
+                E' la piazza principale della città, dove spesso vengono organizzati concerti o installazioni benefiche. <br> Con il bel tempo si riempe di gruppi di ragazzi che si siedono a terra per bersi una birretta e chiaccherare. 
+            </p>   
+          </div>
+          <div class="col-4">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/425c0cqGhRTLRQB2ig3xbg?utm_source=generator&theme=0" width="80%" height="250" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" class="musica" loading="lazy"></iframe>
+        </div>
+</section>
+
+<section id="sectionprimatappa" class="bordo"> <!--section terza tappa-->
+    <div class="container">
+        <div class="row">
+          <div class="col-8">
+            <h2 class="titolo"> VIA D'AZEGLIO</h2>
+            <p class="testo"> Dopo aver fatto delle foto in Piazza Maggior e aver visitato San Petronio e Palazzo D’Accursio dal quale è possibile vedere dall’alto la piazza, la prossima tappa è via d’Azeglio dove da un po’ di anni ogni dicembre viene montata l’installazione di un testo di una canzone. Quest’anno la canzone è “Image” di John Lennon. 
+                Qui inoltre è possibile visitare la casa-museo di Dalla. 
+            </p>   
+          </div>
+          <div class="col-4">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/7pKfPomDEeI4TPT6EOYjn9?utm_source=generator&theme=0" width="80%" height="250" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" class="musica" loading="lazy"></iframe>
+        </div>
+</section>
+
+<section id="sectionprimatappa" class="bordo"> <!--section quarta tappa-->
+    <div class="container">
+        <div class="row">
+          <div class="col-8">
+            <h2 class="titolo"> PIAZZA SANTO STEFANO</h2>
+            <p class="testo"> Arrivati a metà di via d’Azeglio, se si svolta a sinistra su via Farini è possibile con una camminata di 10 minuti arrivare a Piazza Santo Stefano che i Bolognesi sono soliti chiamare Piazza delle Sette Chiese. Si tratta di una piazza unica nel suo genere poiché ospita un santuario cittadino composto da un’unione di 7 edifici di epoche differenti.
+                Tra i vari localini e ristoranti che si affacciano sulla piazza si può mangiare o fare aperitivo. 
+            </p>   
+          </div>
+          <div class="col-4">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/34Axjg2b26gmuHDxovEDUg?utm_source=generator&theme=0" width="80%" height="250" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" class="musica" loading="lazy"></iframe>
+        </div>
+</section>
+
+<section id="sectionprimatappa" class="bordo"> <!--section quinta tappa-->
+  <div class="container">
+      <div class="row">
+        <div class="col-8">
+          <h2 class="titolo">DUE TORRI</h2>
+          <p class="testo"> Finalmente siamo arrivati sotto il simbolo di Bologna: le Due Torri. Qui se si è un po' atletici e coraggiosi, pagando un biglietto, è possibile salire fino a in cima la torre degli Asinelli e vedere così Bologna dall'alto. Se invece si perferisce ammirare le torri dal basso e riposarsi, è possibile fare sosta al Roxie Bar citato citato da Vasco Rossi in "Vita Spericolata".  
+          </p>   
+        </div>
+        <div class="col-4">
+          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5zd9EXZujflINL16eUHgqo?utm_source=generator&theme=0" width="80%" height="250" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" class="musica" loading="lazy"></iframe>
+      </div>
+</section>
+
+<section id="sectionprimatappa" class="bordo"> <!--section sesta tappa-->
+  <div class="container">
+      <div class="row">
+        <div class="col-8">
+          <h2 class="titolo"> SAN LUCA</h2>
+          <p class="testo"> L'ultima tappa del tour sono i Colli, dove i Bolognesi amano andare per respirare aria fresca a pochi chilometri dal centro città. Una volta arrivati sui colli è d'obbligo ascoltare "50 Special" di Cesare Cremonini. <br> E, se si ha ancora un po di tempo, scendendo dai colli si possono seguire le indicazioni per il santuario di San Luca.  
+        </div>
+        <div class="col-4">
+          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/21Ay8mJRYQuOMZp7qyQXl6?utm_source=generator&theme=0" width="80%" height="250" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" class="musica" loading="lazy"></iframe>
+      </div>
+</section>
+
+<footer class="footer-area" class="container-fluid"> <!--footer-->
+  <div class="container">
+      <div class="row">
+        <div class="col">
+          <img id="logofooter" src="imgs/Logo.jpg">
+          <section id="Copyright"> 
+              <p> Copyright ©2023 Creato da Letizia Dal Pesco</p>
+          </section>
+        </div>
+        <div class="col">
+          <section id="footerin">
+            <p> <a class="menufooter" href="index.html">Home</a></p>
+            <p> <a class="menufooter" href="clients.html">Cosa vedere</a></p>
+            <p> <a class="menufooter" href="about.html">Dove mangiare</a></p>
+            <p> <a class="menufooter" href="documentazione.html">Documentazione</a></p>
+          </section>
+          <section>
+              <a id="scrollUp" href="#header" style=" z-index: 2147483647; display: block;"><i class="fa fa-angle-up"></i></a>
+          </section>
+        </div>
+      </div>
+</footer>
  </body>  
 </html>
