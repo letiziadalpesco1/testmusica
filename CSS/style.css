@@ -21,7 +21,7 @@ nav ul li {
 }
 
 #benvenuti {
-    margin-top: 15%;
+    margin-top: 10%;
     margin-left: 8%;
     color: #fff;
 }
@@ -37,7 +37,7 @@ nav ul li {
 }
 #homeimg2 {
     height: 400px;
-    width: 1000px;
+    width: 900px;
 }
 
 #headersin {
@@ -48,8 +48,7 @@ nav ul li {
 }
 
 header {
-    padding: 5% 0% 5% 0%;
-    
+    padding: 0% 0% 5% 0%;   
 }
 
 #sectionimg {
@@ -66,6 +65,8 @@ header {
     color: #fff;
 }
 
+
+
 .active {
      color: #E1A68E;
      background-color: #fff;
@@ -78,6 +79,7 @@ header {
 }
 #clicca {
     color: #A64D2D;
+    margin-top: 7%;
 }
 #tortellini {
     height: 300px;
@@ -87,7 +89,9 @@ header {
     height: 300px;
     width: 300px;
 }
-
+#marginportetort {
+    margin-top: 12%;
+}
 .footer-area {
     background-color:  #A64D2D;
     padding:  20px 0;
