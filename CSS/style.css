@@ -21,9 +21,12 @@ nav ul li {
 }
 
 #benvenuti {
-    margin-top: 10%;
+    margin-top: 15%;
     margin-left: 8%;
     color: #fff;
+}
+#Carboni {
+    margin-top: 10%;
 }
 #contattiheader {
     margin-top: 8%;
@@ -33,7 +36,7 @@ nav ul li {
 
 #homeimg {
     height: 500px;
-    width: auto;
+    width: 900px;
 }
 #homeimg2 {
     height: 400px;
@@ -112,6 +115,10 @@ header {
 #footerin {
     margin-top: 5%;
 }
+#contattifooter {
+    margin-top: 3%;
+    margin-left: 40%;
+}
 
 #s1 {
     padding: 5% 0% 5% 0%;
@@ -157,4 +164,13 @@ header {
 
 .titolo {
     margin-top: 3%;
+}
+
+.docu {
+    margin-left:12%;
+    margin-right: 12%;
+    text-align: left;
+}
+.colordocu {
+    color: #A64D2D;
 }
